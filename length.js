@@ -2,6 +2,6 @@ module.exports = function(n){
 
 var lee = n.length;
 
-console.log(lee);
+//console.log(lee);
 return lee;
 }

@@ -1,7 +1,7 @@
 module.exports = function(n){
 
 var lee = n.toUpperCase();
-console.log(n);
+//console.log(n);
 
 return lee;
 }
