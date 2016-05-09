@@ -1,12 +1,12 @@
 module.exports = function(n) {
-console.log(n);
+//console.log(n);
 
 
 
 var o = "";
-for (var i = n.length - 1; i >= 0; i++){
-  o+= n[i];
-}
+// for (var i = n.length - 1; i >= 0; i++){
+//   o+= n[i];
+// }
   //console.log(o);
 return o;
 }
