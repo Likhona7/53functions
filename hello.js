@@ -1,4 +1,6 @@
 module.exports = function (){
 	// your code goes hello
-	return "hello world!";
+	var lee = "hello world!";
+	console.log(lee);
+	return lee;
 };
