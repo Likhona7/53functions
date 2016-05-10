@@ -11,14 +11,9 @@ describe("takes a number as parameter and returns a list of hello world entries 
                       'hello world!',
                       'hello world!',
                       'hello world!',
-
                       'hello world!'];
     var result = hello_list(5);
     assert.deepEqual(result, vee)
-
-
-    // var result = number_list(5);
-    // assert.deepEqual(result, [1,2,3,4,5])
 
 
   })
