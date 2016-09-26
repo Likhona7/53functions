@@ -1,4 +1,5 @@
 exports.minimum = function(n){
+//console.log(n);
 
 var min = Infinity;
 n.forEach(function(array){
@@ -21,6 +22,6 @@ if(array2 > max){
 }
 
 })
-console.log(max)
+//console.log(max)
 return max;
 };
