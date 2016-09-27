@@ -1,9 +1,36 @@
 module.exports = function(n){
 
-  var arr = n.toUpperCase().split(" ").forEach(function(words){
+var shortestWord = [];
+var wordlength = [];
 
-    console.log(words);
+  var arr = n.split(" ");
+
+
+  console.log(arr);
+
+  arr.forEach(function(words){
+ wordlength.push(words.length);
 
 
 })
+
+
+
+var shortestWord = Math.min.apply(null,wordlength);
+
+
+var lee = wordlength.indexOf(shortestWord);
+
+console.log(lee);
+
+
+this.shortest_word = function(){
+  console.log(arr.lee);
+  return arr.lee
+}
+this.shortest_length = function(){
+  console.log(shortestWord);
+  return shortestWord;
+}
+
 }

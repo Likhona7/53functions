@@ -1,19 +1,35 @@
 module.exports = function(n){
 
-var max = -10;
-var most = "";
+//var max = -Infinity;
+var longestWord = [];
+var wordsL = [];
+
   var arr = n.split(" ").forEach(function(words){
+wordsL.push(words.length);
+});
+//console.log(wordsL);
 
-if(words > max){
+var longestWord = Math.max.apply(null,wordsL);
+var lee = wordsL.indexOf(longestWord);
 
-  max = words;
-most = words;
+//console.log(lee);
 
+
+this.longest_Word = function(){
+  console.log(arr.lee);
+  return arr.lee;
 }
-  })
-console.log(max, "llllllllllllllllllllllll");
 
+this.longestLength = function(){
+console.log(longestWord);
+  return longestWord;
 }
+
+
+
+  };
+
+
 
 
 // exports.maximum = function(ObjectData) {

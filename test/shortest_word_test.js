@@ -12,7 +12,7 @@ assert.equal(result, "to")
 
 it("should return the length of the word which is short", function(){
 var result = shortest_word(lee);
-assert.equal(result, 2)
+assert.equal(result, 3)
 })
 
 
