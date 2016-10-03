@@ -6,13 +6,15 @@ describe("should takes a sentence as a parameter and returns the shortest word i
 var lee = "likhona was here to code"
 
 it("should return the shortest word", function(){
-var result = shortest_word(lee);
+  var shortWord = new shortest_word("likhona was here to code")
+var result = shortWord.shortest_word();
 assert.equal(result, "to")
 })
 
 it("should return the length of the word which is short", function(){
-var result = shortest_word(lee);
-assert.equal(result, 3)
+  var wordLength = new shortest_word("likhona was here to code");
+var result = wordLength.shortest_length();
+assert.equal(result, 2)
 })
 
 

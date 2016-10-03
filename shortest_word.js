@@ -1,36 +1,22 @@
 module.exports = function(n){
-
 var shortestWord = [];
 var wordlength = [];
 
   var arr = n.split(" ");
 
-
-  console.log(arr);
-
   arr.forEach(function(words){
  wordlength.push(words.length);
-
-
 })
-
-
-
-var shortestWord = Math.min.apply(null,wordlength);
-
-
-var lee = wordlength.indexOf(shortestWord);
-
-console.log(lee);
-
+var shortestLength = Math.min.apply(null,wordlength);
+var pos = wordlength.indexOf(shortestLength);
+// console.log(shortestLength);
+// console.log(arr[pos],"llllllllllllllllll");
 
 this.shortest_word = function(){
-  console.log(arr.lee);
-  return arr.lee
-}
-this.shortest_length = function(){
-  console.log(shortestWord);
-  return shortestWord;
+  return arr[pos];
 }
 
+this.shortest_length = function(){
+  return shortestLength;
+}
 }
