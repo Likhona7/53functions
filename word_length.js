@@ -1,5 +1,5 @@
 module.exports = function(n){
-
+  // test...
   var total = 0;
 var wordLength = [];
 var word = n.split(" ").forEach(function(array){
